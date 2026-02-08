@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: __SERVICE_NAME__
+  version: 0.1.0
+paths:
+  /health:
+    get:
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
