@@ -1,24 +1,5 @@
 {% raw %}
-Skip to content
-platform-001
-mic-003
-Repository navigation
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-CI/CD Deploy (ECR + App Runner + Port)
- 
-Update ci-cd.yml #9
-All jobs
-Run details
-Workflow file for this run
-.github/workflows/ci-cd.yml at 869adbc
- name: CI/CD Deploy (ECR + App Runner + Port)
+name: CI/CD Deploy (ECR + App Runner + Port)
 
 on:
   push:
